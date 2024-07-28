@@ -1,0 +1,1 @@
+#define sum1 0
