@@ -19,6 +19,8 @@ int maxSizeSlices(vector<int>& slices) {
     return max(opt1, opt2);
 }
 
+
+
 int main() {
     vector<int> slices = {1, 2, 3, 4, 5, 6}; 
     int result = maxSizeSlices(slices);
