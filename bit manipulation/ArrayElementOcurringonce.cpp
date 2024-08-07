@@ -26,6 +26,7 @@ int main() {
             if (ans[i]!=' '){
                   count++;
             }else{
+                
                 break;
             }
         }
