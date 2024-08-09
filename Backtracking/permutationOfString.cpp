@@ -8,7 +8,7 @@ void solve(string& temp, vector<string>& ans, int i) {
     for (int j = i; j < temp.size(); j++) {
         swap(temp[i], temp[j]);   
         solve(temp, ans, i + 1); 
-        swap(temp[i], temp[j]);   
+        swap(temp[i], temp[j]);   // backtrack
     }
 }
 int main() {
