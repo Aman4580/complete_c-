@@ -33,6 +33,7 @@ int main() {
             result = (result + contribution) % MOD;
         }
 
+
         cout << result << endl;
     }
 
