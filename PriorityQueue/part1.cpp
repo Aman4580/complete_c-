@@ -25,6 +25,7 @@ class MaxHeap{
                 if(hp[rc]>hp[maxEle]){
                     maxEle = rc;
                 }
+                
                 if(maxEle!=idx){
                     swap(hp[maxEle],hp[idx]);
                     idx = maxEle;
