@@ -12,6 +12,8 @@ int main(){
         cout<<i<<endl;
     }
     
+
+    
 // search particular value in Hassets
 int target = 86;
 // if we write == them target not present
