@@ -37,6 +37,7 @@ int main() {
         }
 
 
+
         long long max_score = 0;
         for (int i = 0; i < n; ++i) {
             vector<long long> ci = a;
