@@ -1,2 +1,2 @@
-   // cout<<f(n)<<" ";
-    // cout<<td(n)<<" ";
+
+    wt.push_back(30);
