@@ -32,8 +32,6 @@ int main() {
             int contribution = (i > 1) ? power(2, i - 1, MOD) : 1;
             result = (result + contribution) % MOD;
         }
-
-
         cout << result << endl;
     }
 
