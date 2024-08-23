@@ -27,6 +27,7 @@ int main() {
         long long result = 0;
 
         for (int i = 1; i <= n; ++i) {
+            
             // If j > i, C(i, j) = i
             // Otherwise, C(i, j) = j
             int contribution = (i > 1) ? power(2, i - 1, MOD) : 1;
