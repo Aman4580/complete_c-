@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
     int n;
+    
     bool flag=true;
     cout<<"Enter the size of vector "<<endl;
     cin>>n;
