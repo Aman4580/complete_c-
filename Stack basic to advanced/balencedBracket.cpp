@@ -4,8 +4,6 @@ using namespace std;
 int main() {
     string str = "()(()())()()(())";
     stack<char> st;
-    
-
     for (int i = 0; i < str.size(); i++) {
         if (str[i] == '(') {
             st.push('(');
