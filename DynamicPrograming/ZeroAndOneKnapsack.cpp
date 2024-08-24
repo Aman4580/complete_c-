@@ -1,9 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
-
 class Solution {
   private:
     int rec(int i, int W, vector<int>& wt, vector<int>& val, vector<vector<int>>& dp) {
@@ -25,17 +23,11 @@ class Solution {
         return rec(0, W, wt, val, dp);
     }
 };
-
 int main() {
     Solution sol;
-    
-    // Example input
     int W = 50;
     vector<int> wt = {10, 20, 30};
     vector<int> val = {60, 100, 120};
-    
-    // Expected output: 220
     cout << "Maximum value in knapsack: " << sol.knapSack(W, wt, val) << endl;
-
     return 0;
 }
