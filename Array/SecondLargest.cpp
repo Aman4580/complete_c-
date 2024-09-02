@@ -41,6 +41,7 @@ int main() {
     int n = sizeof(sortedArr) / sizeof(sortedArr[0]);
     int secondMax = findSecondMaxUsingBinarySearch(sortedArr, 0, n - 1);
 
+
     if (secondMax != -1) {
         std::cout << "The second maximum element is: " << secondMax << std::endl;
     }
