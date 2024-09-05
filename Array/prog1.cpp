@@ -7,6 +7,7 @@ int main(){
         if(v[i]>v[i-1] && v[i]<v[i+1]){
             ans = min(ans,v[i]);
         }
+        
     }
     cout<<" The answer is this"<<ans;
     return 0;
