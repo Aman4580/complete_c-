@@ -8,6 +8,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+
 // Definition for a binary tree node.
 struct TreeNode {
     int val;
