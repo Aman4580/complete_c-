@@ -25,6 +25,7 @@ int main(){
         }
         if(vec[mid]<target){
         low=mid+1;
+        
         }
         if(vec[mid]>target){
             high= mid-1;
