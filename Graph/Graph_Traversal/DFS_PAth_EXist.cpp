@@ -64,6 +64,7 @@ int main () {
         for(auto ele: it){
             cout<<ele<<" ";
         }
+        
         cout<<endl;
     }
     return 0;
