@@ -5,7 +5,7 @@ using namespace std;
 vector<vector<int>> dp;
 
 
-// Function to compute the length of LCS
+// Function to compute the length of LCS  
 int lcs(string &s1, string &s2, int i, int j) {
     if (i >= s1.size() || j >= s2.size()) return 0;
     if (dp[i][j] != -1) return dp[i][j];
