@@ -4,7 +4,7 @@ vector<list<pair<int,int>>>graph;
 int v;// no of vertices
 void add_edge(int src,int dest,bool dir,int wt){
 graph[src].push_back({dest,wt});
-if(dir){
+if(dir){ 
     graph[dest].push_back({src,wt});
 }
 }
