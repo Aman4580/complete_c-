@@ -9,6 +9,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         cin >> input[i];
     }
+    sort(input.begin(),input.end());
     map<int, int> mp; 
     for(int i = 0; i < n; i++) {
         if (input[i] == -1) continue;
