@@ -27,6 +27,7 @@ int main () {
      cin>>src>>dest>>wt;
      add_edge(src,dest,true,wt);//undirected 
     // add_edge(src,dest,false);// directed graph
+    
     }
     display();
     return 0;
