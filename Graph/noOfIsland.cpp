@@ -52,7 +52,6 @@ int main() {
         {'0', '0', '1', '0', '0'},
         {'0', '0', '0', '1', '1'}
     };
-
     Solution sol;
     int result = sol.numIslands(grid);
     cout << "Number of islands: " << result << endl;  // Expected output: 3

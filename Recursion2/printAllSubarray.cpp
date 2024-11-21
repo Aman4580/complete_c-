@@ -8,11 +8,11 @@ void subarray(vector<int>ans,int n,int arr[],int ind){
         cout<<endl;
         return ;
     }
-    subarray(ans,n,arr,ind+1);
     if(ans.size()==0 || ans[ans.size()-1]==arr[ind-1]){
         ans.push_back(arr[ind]);
         subarray(ans,n,arr,ind+1);
     }
+     subarray(ans,n,arr,ind+1);
 }
 int main(){
     int arr[] = {1,2,3,4};
