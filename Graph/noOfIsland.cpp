@@ -10,7 +10,6 @@ public:
         if (r < 0 || c < 0 || r >= grid.size() || c >= grid[0].size() || grid[r][c] != '1' || vis[r][c] == 1) {
             return;
         }
-
         // Mark the current cell as visited
         vis[r][c] = 1;
 
