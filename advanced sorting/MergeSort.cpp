@@ -34,7 +34,10 @@ void merge(vector<int>&arr,int l,int mid,int h){
 }
 void merge_sort(vector<int>&vec,int l, int h){
     if(l>h) return;
+    
     if(l<h){
+
+
         int mid=(l+h)/2;
         merge_sort(vec,l,mid);
         merge_sort(vec,mid+1,h);
