@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
     cin>>vec[i];
     }
-    //logic for bubble sort
+ 
     int i,j,k;
     for(int i=0;i<n-1;i++){
     for(int j=k=i;j<n;j++){

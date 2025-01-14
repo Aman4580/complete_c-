@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+
 // Function to perform binary search on a sorted matrix
 bool searchMatrix(vector<vector<int>>& matrix, int target) {
     int rows = matrix.size();    // Number of rows in the matrix
