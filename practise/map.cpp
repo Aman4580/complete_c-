@@ -7,6 +7,6 @@ int main(){
     for(int i=0;i<n;i++){
         mp[arr[i]]++;
     }
-    cout<<mp[2];
+    cout<<mp[1];
     return 0;
 }

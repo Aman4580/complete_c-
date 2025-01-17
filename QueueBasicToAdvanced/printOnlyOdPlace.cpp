@@ -32,7 +32,9 @@ int main(){
     q.push(40);
     q.push(50);
      display(q);
+     cout<<endl;
     printOddEle(q);
+     cout<<endl;
      display(q);
     return 0;
 

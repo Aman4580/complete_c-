@@ -8,7 +8,7 @@ int power(int a,int b){
     return ans*ans;
     }
      if(b%2!=0){
-    int ans=power(a,b/2);
+    int ans=power(a,b/2)*a;
     return ans*ans;
     }
 }
