@@ -37,7 +37,7 @@ void findSubarraysWithSumK(const vector<int>& arr, int k) {
 }
 
 int main() {
-    vector<int> arr = {1, 2, 3, -3, 4, -2, 2};
+    vector<int> arr = {1,2,3,4,5};
     int k = 5;
 
     findSubarraysWithSumK(arr, k);
